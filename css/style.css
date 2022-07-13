@@ -1,0 +1,229 @@
+header{
+    margin-bottom: 30px;
+}
+header , img{
+    border-radius: 100px;
+    
+    cursor: pointer;
+
+}
+
+h1{
+    font-size: 30px;
+    color: #0275d8;
+}
+h2{
+    font-size: 18px;
+    color: #848484; 
+}
+#smart-hub h2{
+    margin-top: 5px;
+}
+p{
+    color: #908d8d; 
+}
+#reciepes td img {
+    width: auto;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+#reciepes #reciepe-card>img {
+    width: 82%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+ 
+#delete-item{
+    display: inline;
+   
+}
+  /* list */
+
+  #ingrediant-list, img{
+   width: 50px;
+   height: auto;
+  }
+  #big-item img{
+      width: 250px;
+  }
+  
+#smart-hub #loader{
+    display: none;
+}
+  .titles{
+      font-size: 12px;
+  }
+   #myFridge .add-item-btn{
+      background-color:#D9EDF7 ;
+      border-radius: 10px;
+      margin: 1px;
+      width: 90px;
+      padding: 3px; 
+      min-height: 50px;
+      cursor: pointer;
+  }
+  .add-item-btn img{
+        width: 47px;
+        border-radius: 10px;
+  }
+  #search-bar{
+      width: 89%;
+      height: 40px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: solid gainsboro 0.1px;
+  }
+  .product{
+      border-bottom: solid rgb(239, 239, 239) ;
+  }
+  .product:hover{
+      background-color: #e0e2e4;
+  }
+  .product img{
+      border-radius: 5px;
+  }
+  #usually-buy{
+      margin: 10px;
+  }
+  .card{
+      border-radius: 5px;
+  }
+
+  #main-object .card{
+      margin-bottom: 10px;
+      height: 250px;
+  }
+ 
+@media only screen and (max-width: 990px){
+    
+    h1{
+        font-size:23px ;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 18x;
+        color: #848484;
+    }
+    .card{
+        padding-top: 10px;
+    }
+     #reciepe-preview{
+        display: none;
+    }
+    #myFridge #big-item{
+        display: none;
+    }
+    #main-object #big-item{
+        margin-bottom: 10px;
+    }
+    #main-object .card{
+        height: 280px;
+    }
+    #reciepes td img {
+        
+        height: 70px;
+        border-radius: 5px;
+        
+    }
+    .product{
+        font-size: 14px;
+    }
+    .p-date{
+        font-size: 12px;
+    }
+
+    #column{
+        flex-direction: column;
+    }
+
+    .add-item-btn>img{
+        width: 42px;
+    }
+    .make-column{
+        flex-direction: column;
+    }
+    
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1);
+    border-color: #fff transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .ml6 {
+    position: relative;
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+

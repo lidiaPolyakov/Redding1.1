@@ -1,0 +1,19 @@
+{    
+    "products": [  
+        {  
+            "id": 0, 
+            "name": "Apples",  
+            "price": 16.65  
+        },  
+        {  
+            "id": 1,   
+            "name": "Protein Bars",
+            "price": 7.03  
+        },  
+        {  
+            "id": 2,   
+            "name": "Marshmelos",
+            "price": 9.23  
+        }  
+    ]  
+}
